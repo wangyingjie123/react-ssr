@@ -1,0 +1,15 @@
+.list-wrapper{
+  grid-template-columns: 25% 25% 25% 25%;
+  display: grid;
+  .list-item{
+    margin-bottom: 20px;
+    &_1{
+      grid-area: 1 /1/ 2/ 4; // 开始行/开始列/结束行/结束列
+      order: 1;
+    }
+    &_2{
+
+    }
+  }
+}
+
